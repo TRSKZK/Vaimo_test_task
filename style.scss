@@ -148,3 +148,12 @@ header {
       color: black;
       
   }
+
+  .header-welcome {
+    display: flex;
+    height: 65vh;
+    font-size: 30px;
+    align-items: center;
+    justify-content: center;
+    color: white;
+  }

@@ -148,3 +148,12 @@ button:focus {
   border: 1px solid #f7f7f7;
   color: black;
 }
+
+.header-welcome {
+  display: flex;
+  height: 65vh;
+  font-size: 30px;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
