@@ -1,0 +1,12 @@
+html {
+  box-sizing: border-box;
+  margin: 0 auto;
+}
+html a {
+  text-decoration: none;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 0 auto;
+}
