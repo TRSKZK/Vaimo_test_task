@@ -9,3 +9,142 @@ html {
     font-family: "Poppins", sans-serif;
     margin: 0 auto;
   }
+  .above-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 24px;
+  }
+  
+  .we-deliver {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    flex-basis: 90%;
+    font-size: 11px;
+    margin-left: 25px;
+  }
+  .above-header-location {
+    justify-content: center;
+    align-items: center;
+    font-size: 11px;
+    margin-right: 25px;
+  
+    i {
+      margin-right: 5px;
+    }
+  }
+
+  
+header {
+    background-image: url("./assets/header-image-1.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    box-shadow: inset 0 50px 107px rgb(34 34 34 / 30%);
+  }
+  
+  .nav {
+    padding: 15px 0 0 0;
+    margin: 0 25px 0 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    a {
+      color: white;
+    }
+  }
+  .logo {
+    font-size: 38px;
+    font-weight: bold;
+  }
+  .search {
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    justify-content: center;
+    .search-input {
+      width: 584px;
+      height: 48px;
+      background-color: #f7f7f73b;
+      border: 0;
+      border-radius: 5px;
+      color: white;
+    }
+  
+    .search-button {
+      width: 50px;
+      height: 50px;
+      position: absolute;
+      left: 91.5%;
+      top: 1.5%;
+      opacity: 0.5;
+      background: none;
+      border: 0;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    .i {
+      width: 80px;
+      height: 80px;
+    }
+    .fa-search{
+        color: white;
+    }
+  }
+  input::placeholder {
+    // background-color: #F7F7F7;
+    padding-left: 10px;
+    color: whitesmoke;
+    background: none;
+  }
+  
+  input:focus,
+  button:focus {
+    outline: none;
+  }
+  
+  .sign-in {
+    font-size: 11px;
+    word-spacing: 5px;
+    color: white;
+  }
+  
+  .nav-links-container {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    word-spacing: 5px;
+    align-items: center;
+    a {
+      font-size: 13px;
+      padding: 31px;
+      text-transform: uppercase;
+      color: white;
+    }
+  }
+  .sticky {
+      position: fixed;
+      width: 100%;
+      background-color: rgba(255, 255, 255, 0.89);
+      transition: 0.5s;
+      a{
+          color: black;
+      }
+      .fas {
+          color: black;
+      }
+      
+  }
+  
+  .sticky .search-input::placeholder {
+      color: black;
+      
+  }
+  
+  .sticky .search-input {
+      border: 1px solid #f7f7f7;
+      color: black;
+      
+  }
