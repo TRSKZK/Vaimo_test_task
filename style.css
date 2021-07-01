@@ -202,3 +202,55 @@ button:focus {
 .register-btn:active {
   transform: scale(0.95);
 }
+
+footer {
+  margin-top: 32px;
+  background-color: #f7f7f7;
+  display: flex;
+  font-size: 12px;
+  justify-content: center;
+}
+footer ul {
+  list-style-type: none;
+  padding: 16px 48px;
+  font-weight: normal;
+  flex-wrap: wrap;
+  flex-basis: 1 1 150px;
+}
+footer a {
+  color: black;
+}
+
+footer span {
+  font-family: "Cormorant Garamond", serif;
+  font-size: 16px;
+}
+
+.top-of-list {
+  margin-bottom: 17px;
+}
+
+.social {
+  grid-template-rows: repeat(2, 1fr);
+}
+
+.social-icons {
+  display: flex;
+}
+
+.other-icons {
+  display: inline;
+}
+
+.moved {
+  margin-left: 15px;
+}
+
+.copyright {
+  display: flex;
+  background-color: #f7f7f7;
+  align-items: center;
+  justify-content: center;
+  padding-top: 38px;
+  font-size: 9px;
+}
